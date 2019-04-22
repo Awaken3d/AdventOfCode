@@ -10,7 +10,7 @@ import (
 func main() {
 	freq := 0
 	// Open the file.
-	f, _ := os.Open("input")
+	f, _ := os.Open("input1")
 	// Create a new Scanner for the file.
 	scanner := bufio.NewScanner(f)
 	// Loop over all lines in the file and print them.
